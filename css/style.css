@@ -8,40 +8,14 @@ section{
     min-height: 550px;
 }
 
-.column
-{
-    width:25%;
-    float:left;
-    padding:100px 10px;
-}
-
-.row:after{
-    content:"";
-    display:table;
-    clear:both;
-}
-
-
-
-@media screen and (max-width:600px)
-{
-    .column
-    {
-        width:100%;
-        display:block;
-        margin-bottom: 20px;
-    }
-}
-
 .card
 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    max-width:300px;
-    margin:auto;
     background-color:white;
     text-align:center;
     border-radius:40px;
-    padding-bottom:15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .title
@@ -50,8 +24,7 @@ section{
     font-size:18px;
 }
 
-button
-{
+p button{
     border:none;
     padding:8px;
     display: inline-block;
@@ -64,10 +37,18 @@ button
     text-align:center;
 }
 
+p button:focus {
+  outline: 0 !important;
+}
+
 .card-img-round{
   margin: 10px auto;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+table tr{
+  border-bottom: 1px solid rgb(105, 92, 92);
 }
