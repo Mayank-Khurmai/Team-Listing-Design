@@ -68,3 +68,12 @@ a i:hover{
 table tr{
   border-bottom: 1px solid rgb(105, 92, 92);
 }
+
+body.modal-open .background-container{
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -o-filter: blur(4px);
+  -ms-filter: blur(4px);
+  filter: blur(4px);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
